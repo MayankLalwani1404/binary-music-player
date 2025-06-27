@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.controls button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+#bit-display {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.bit {
+  width: 20px;
+  height: 40px;
+  margin: 0 3px;
+  border-radius: 4px;
+  background-color: #333;
+  transition: background 0.2s;
+}
+
+.bit.on {
+  background-color: lime;
+}
+
+.bit.off {
+  background-color: #444;
+}
